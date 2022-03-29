@@ -23,7 +23,8 @@ public class ObjectInteger {
                 "\"0\" jeżeli obiekty są równe. "+a.compareTo(c));
         System.out.println("c.compareTo(d) porównuje \"c\" z \"d\" i zwraca " +
                         "\"-1\" jeżeli obiekt \"c\" jest mniejszy od obiektu \"d\". "+c.compareTo(d));
-        System.out.println("...? "+d.compareTo(c));
+        System.out.println("d.compareTo(c) porównuje \"d\" z \"c\" i zwraca " +
+                "\"1\" jeżeli obiekt \"d\" jest większy od obiektu \"c\". "+d.compareTo(c));
         /*
         zmiana wartości obiektu
          */
