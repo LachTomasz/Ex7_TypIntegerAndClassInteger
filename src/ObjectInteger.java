@@ -15,10 +15,14 @@ public class ObjectInteger {
         /*
         Porównanie obiektów
          */
-        System.out.println("...? "+a.equals(b));
-        System.out.println("...? "+a.equals(c));
-        System.out.println("...? "+a.compareTo(c));
-        System.out.println("...? "+c.compareTo(d));
+        System.out.println("a.equals(b) porównuje \"a\" z \"b\" i zwraca " +
+                "false jeżeli obiekty są różne. "+a.equals(b));
+        System.out.println("a.equals(c) porównuje \"a\" z \"b\" i zwraca " +
+                "true jeżeli obiekty są równe. "+a.equals(c));
+        System.out.println("a.compareTo(c) porównuje \"a\" z \"c\" i zwraca " +
+                "\"0\" jeżeli obiekty są równe. "+a.compareTo(c));
+        System.out.println("c.compareTo(d) porównuje \"c\" z \"d\" i zwraca " +
+                        "\"-1\" jeżeli obiekt \"c\" jest mniejszy od obiektu \"d\". "+c.compareTo(d));
         System.out.println("...? "+d.compareTo(c));
         /*
         zmiana wartości obiektu
