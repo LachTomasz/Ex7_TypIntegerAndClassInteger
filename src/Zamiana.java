@@ -1,3 +1,7 @@
+/*
+* Program zamienia liczbę podaną w formacie dziesiętnym (args[1])
+* na liczbę w systemie wskazanym w args[0]
+* */
 public class Zamiana {
     public static void main(String[] args) {
         try {
